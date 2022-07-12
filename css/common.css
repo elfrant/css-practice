@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+:root {
+    font-size: 18px;
+    font-family: 'Work sans', sans-serif;
+    --text-color: #000;
+    --border-color: #ccc;
+    --ui-brand-color: #555;
+}
+
+html, body, footer {
+    font-size: 18px;
+}
+
+
+h1 {
+    color: var(--text-color);
+    color: red;
+    text-transform: uppercase;
+}
+
+.ui-brand {
+    color: var(--ui-brand-color);
+}
+
+/* найблищий до тегу виживає*/
+
+.footer h2 {color: green}
+
+footer h2 span {
+    color: var(--text-color);
+}
+
+/*specufichnist 0,0,3 hto kogo perebuvaje 
+css specifity calculator
+12 tegiv prograjut 1  klasu
+id clas teg
+psevdoklasy ih bagato kolu mushku na paragraf
+*/
+
+p:hover {
+    color: var(--ui-brand-color);
+}
+
+p::first-letter {
+font-size: 2rem;
+
+}
+
+img {
+display:block;
+width: 100%;
+/*dopysaty codepen.io*/
+}
